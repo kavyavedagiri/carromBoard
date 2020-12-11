@@ -202,7 +202,7 @@ if(striker.isTouching (blackCoin1)||striker.isTouching (blackCoin2)||striker.isT
     whiteScore = whiteScore +1;
     whiteCoin1.x = -100;
     whiteCoin1.y = -100;
-
+    whiteCoin1.setSpeedAndDirection(0);
   }
 
   if(whiteCoin2.isTouching(pocket1)
@@ -213,7 +213,7 @@ if(striker.isTouching (blackCoin1)||striker.isTouching (blackCoin2)||striker.isT
     whiteScore = whiteScore +1;
     whiteCoin2.x = -100;
     whiteCoin2.y = -100;
-
+    whiteCoin2.setSpeedAndDirection(0);
   }
 
   if(whiteCoin3.isTouching(pocket1)
@@ -224,7 +224,7 @@ if(striker.isTouching (blackCoin1)||striker.isTouching (blackCoin2)||striker.isT
     whiteScore = whiteScore +1;
     whiteCoin3.x = -100;
     whiteCoin3.y = -100;
-
+    whiteCoin3.setSpeedAndDirection(0);
   }
 
   if(whiteCoin4.isTouching(pocket1)
@@ -235,7 +235,7 @@ if(striker.isTouching (blackCoin1)||striker.isTouching (blackCoin2)||striker.isT
       whiteScore = whiteScore +1;
     whiteCoin4.x = -100;
     whiteCoin4.y = -100;
-
+    whiteCoin4.setSpeedAndDirection(0);
   }
 
   if(whiteCoin5.isTouching(pocket1)
@@ -246,7 +246,7 @@ if(striker.isTouching (blackCoin1)||striker.isTouching (blackCoin2)||striker.isT
       whiteScore = whiteScore +1;
     whiteCoin5.x = -100;
     whiteCoin5.y = -100;
-
+    whiteCoin5.setSpeedAndDirection(0);
   }
 
   if(whiteCoin6.isTouching(pocket1)
@@ -257,7 +257,7 @@ if(striker.isTouching (blackCoin1)||striker.isTouching (blackCoin2)||striker.isT
       whiteScore = whiteScore +1;
     whiteCoin6.x = -100;
     whiteCoin6.y = -100;
-
+    whiteCoin6.setSpeedAndDirection(0);
   }
 
   if(whiteCoin7.isTouching(pocket1)
@@ -268,7 +268,7 @@ if(striker.isTouching (blackCoin1)||striker.isTouching (blackCoin2)||striker.isT
       whiteScore = whiteScore +1;
     whiteCoin7.x = -100;
     whiteCoin7.y = -100;
-
+    whiteCoin7.setSpeedAndDirection(0);
   }
 
   if(whiteCoin8.isTouching(pocket1)
@@ -279,7 +279,7 @@ if(striker.isTouching (blackCoin1)||striker.isTouching (blackCoin2)||striker.isT
       whiteScore = whiteScore +1;
     whiteCoin8.x = -100;
     whiteCoin8.y = -100;
-
+    whiteCoin8.setSpeedAndDirection(0);
   }
 
   if(whiteCoin9.isTouching(pocket1)
@@ -290,7 +290,7 @@ if(striker.isTouching (blackCoin1)||striker.isTouching (blackCoin2)||striker.isT
       whiteScore = whiteScore +1;
     whiteCoin9.x = -100;
     whiteCoin9.y = -100;
-
+    whiteCoin9.setSpeedAndDirection(0);
   }
   
   if(pinkCoin.isTouching(pocket1)
@@ -318,7 +318,7 @@ if(striker.isTouching (blackCoin1)||striker.isTouching (blackCoin2)||striker.isT
     blackScore = blackScore +1;
    blackCoin1.x = -100;
    blackCoin1.y = -100;
-
+   blackCoin1.setSpeedAndDirection(0);
  }
 
  if(blackCoin2.isTouching(pocket1)
@@ -329,7 +329,7 @@ if(striker.isTouching (blackCoin1)||striker.isTouching (blackCoin2)||striker.isT
     blackScore = blackScore +1;
    blackCoin2.x = -100;
    blackCoin2.y = -100;
-
+   blackCoin2.setSpeedAndDirection(0);
  }
 
  if(blackCoin3.isTouching(pocket1)
@@ -340,7 +340,7 @@ if(striker.isTouching (blackCoin1)||striker.isTouching (blackCoin2)||striker.isT
     blackScore = blackScore +1;
    blackCoin3.x = -100;
    blackCoin3.y = -100;
-
+   blackCoin3.setSpeedAndDirection(0);
  }
 
  if(blackCoin4.isTouching(pocket1)
@@ -351,7 +351,7 @@ if(striker.isTouching (blackCoin1)||striker.isTouching (blackCoin2)||striker.isT
     blackScore = blackScore +1;
    blackCoin4.x = -100;
    blackCoin4.y = -100;
-
+   blackCoin4.setSpeedAndDirection(0);
  }
 
  if(blackCoin5.isTouching(pocket1)
@@ -362,7 +362,7 @@ if(striker.isTouching (blackCoin1)||striker.isTouching (blackCoin2)||striker.isT
     blackScore = blackScore +1;
    blackCoin5.x = -100;
    blackCoin5.y = -100;
-
+   blackCoin5.setSpeedAndDirection(0);
  }
 
  if(blackCoin6.isTouching(pocket1)
@@ -373,7 +373,7 @@ if(striker.isTouching (blackCoin1)||striker.isTouching (blackCoin2)||striker.isT
     blackScore = blackScore +1;
    blackCoin6.x = -100;
    blackCoin6.y = -100;
-
+   blackCoin6.setSpeedAndDirection(0);
  }
 
  if(blackCoin7.isTouching(pocket1)
@@ -384,7 +384,7 @@ if(striker.isTouching (blackCoin1)||striker.isTouching (blackCoin2)||striker.isT
     blackScore = blackScore +1;
    blackCoin7.x = -100;
    blackCoin7.y = -100;
-
+   blackCoin7.setSpeedAndDirection(0);
  }
 
  if(blackCoin8.isTouching(pocket1)
@@ -395,7 +395,7 @@ if(striker.isTouching (blackCoin1)||striker.isTouching (blackCoin2)||striker.isT
     blackScore = blackScore +1;
    blackCoin8.x = -100;
    blackCoin8.y = -100;
-
+   blackCoin8.setSpeedAndDirection(0);
  }
 
  if(blackCoin9.isTouching(pocket1)
@@ -406,21 +406,24 @@ if(striker.isTouching (blackCoin1)||striker.isTouching (blackCoin2)||striker.isT
     blackScore = blackScore +1;
    blackCoin9.x = -100;
    blackCoin9.y = -100;
-
+   blackCoin9.setSpeedAndDirection(0);
  }
 // console.log(pinkCoin.x)
 //  if(pinkCoin.x===-100){
-//   textSize(5)
+//   textSize(50)
 //     text("GAME OVER PLAYER WHITE HAS WON!!!",250,250)
 //   }
 if( whiteCoin1.x === -100 &&  whiteCoin2.x === -100 &&  whiteCoin3.x === -100 && whiteCoin4.x === -100 && whiteCoin5.x === -100 &&whiteCoin6.x === -100 &&whiteCoin7.x === -100 &&whiteCoin8.x === -100 && whiteCoin9.x === -100 
   &&whiteCoin1.y === -100 &&  whiteCoin2.y === -100 &&  whiteCoin3.y === -100 && whiteCoin4.y === -100 && whiteCoin5.y === -100 &&whiteCoin6.y === -100 &&whiteCoin7.y === -100 &&whiteCoin8.y === -100 && whiteCoin9.y === -100 ){
-text("GAME OVER PLAYER WHITE HAS WON!!!")
+    textSize(30)
+    text("GAME OVER PLAYER WHITE HAS WON!!!",250,250)
 
 }
 
-if( blackCoin1.x === -100 &&  blackCoin2.x === -100 &&  blackCoin3.x === -100 && blackCoin4.x === -100 && blackCoin5.x === -100 && blackCoin6.x === -100 && blackCoin7.x === -100 && blackCoin8.x === -100 && blackCoin9.x === -100 ){
-  text("GAME OVER PLAYER BLACK HAS WON!!!")
+if( blackCoin1.x === -100 &&  blackCoin2.x === -100 &&  blackCoin3.x === -100 && blackCoin4.x === -100 && blackCoin5.x === -100 && blackCoin6.x === -100 && blackCoin7.x === -100 && blackCoin8.x === -100 && blackCoin9.x === -100 
+  &&blackCoin1.y === -100 &&  blackCoin2.y === -100 &&  blackCoin3.y === -100 && blackCoin4.y === -100 && blackCoin5.y === -100 && blackCoin6.y === -100 && blackCoin7.y=== -100 && blackCoin8.y === -100 && blackCoin9.y === -100){
+    textSize(30)
+    text("GAME OVER PLAYER BLACK HAS WON!!!",250,250)
   
   }
 text(mouseX+","+mouseY,mouseX,mouseY); 
